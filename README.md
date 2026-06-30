@@ -113,6 +113,21 @@ Evaluate Quality Metrics
 
 ---
 
+#  Image Reconstruction at Different Rank Values
+
+Singular Value Decomposition enables image compression by retaining only the **top-k singular values** of the image matrix. Smaller values of **k** provide higher compression but introduce greater information loss, whereas larger values preserve finer image details at the cost of lower compression.
+
+The figures below compare the original images with their reconstructed versions for **k = 5, 20, 50, and 100**, illustrating the trade-off between compression and visual quality.
+
+### Image 1
+
+![Image 1 Reconstruction](results/k_comparision_1.png)
+
+---
+
+### Image 2
+
+![Image 2 Reconstruction](results/k_comparision_2.png)
 #  Evaluation Metrics
 
 The project evaluates compression quality using:
